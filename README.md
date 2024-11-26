@@ -10,7 +10,8 @@ A collected of python scripts that I commonly use to download online media for v
 
 ## Usage
 Call any of the python scripts and pass a link as an argument.  
-Eg. `python YouTube_MP3.py https://www.youtube.com/watch?v=bg8vTSyHFkQ`    
+Eg. `python YouTube_MP3.py https://www.youtube.com/watch?v=bg8vTSyHFkQ`  
+Upon completion, the media is placed inside a directory called `downloads`.  
 
 ## Requirements
 These scripts requires `yt-dlp`  
@@ -18,3 +19,6 @@ These scripts requires `yt-dlp`
 pip install yt-dlp
 ```
 They also require `ffmpeg`. If you do not already have it installed, I've included a version as a `.rar` file, just extract it such that the `ffmpeg` binary is in the same folder as the scripts.  
+
+## Preview
+![Preview](preview.png)
